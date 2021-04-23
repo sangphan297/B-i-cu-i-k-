@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Form valid | VinaEnter</title>
+<meta charset="utf-8" />
+<style>
+	.myErrors {
+		color:red;
+	}
+	#myContent{width:800px; margin: 0 auto;}
+</style>
+<script src=" jquery.3-4-1.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>		
+</head>
+<body>
+	<div id="allContent">
+<div class="clear"></div>
+		<div id="myContent">
+			<p>Valid các trường sau:</p>
+			<form id="samplecode" name="samplecode" method="POST" action="">
+					<fieldset>
+						<legend><b>&nbsp;&nbsp;&nbsp;jQuery Validation&nbsp;&nbsp;&nbsp;</b></legend>
+						<table>
+						<tbody><tr>
+							<td valign="top">
+							<label for="myInputBox"> Họ tên  </label>
+							</td>
+							<td>
+							<input id="hoten" type="text" name="hoten" size="50" value=""> (phải nhập)
+							<div class="myErrors"></div>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+							<label for="myURL"> Website URL  </label>
+							</td>
+							<td>
+							<input id="myURL" type="text" name="myURL" size="50" value=""> (phải là 1 url)
+							<div class="myErrors"></div>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+							<label for="mySelect"> Hãng xe bạn chọn  </label>
+							</td>
+							<td>
+							<select id="mySelect" name="mySelect" title="Please select your Car">
+							<option value="">Choose one</option>
+							<option value="toyota">Toyota</option>
+							<option value="honda">Honda</option>
+							<option value="ford">Ford</option>
+							<option value="other">Others</option>
+							</select> (phải chọn)	
+							<div class="myErrors"></div>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label for="explain"> Mô tả thêm </label> 
+							</td>
+							<td>
+								<textarea id="content" class="ckeditor" name="content" rows="5" cols="60" maxlength="300"></textarea> (phải nhập)	
+								<div class="myErrors"></div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								<input id="processForm" type="submit" name="submit" value="Gửi thông tin">
+							</td>
+						</tr>
+						</tbody></table>
+					</fieldset>
+			</form>
+			<script type="text/javascript">
+				$(document).ready(function (){
+					$("#samplecode").validate({
+						ignore: []  ,
+						rules:{
+							"hoten" :{
+								required: true,
+							},
+							"myURL":{
+								url: true,
+							},
+							"mySelect":{
+								required:true,
+							},
+							"content":{
+								required: true,
+							},
+
+						},
+						messages:{
+							"hoten" :{
+								required: "Nhập họ tên",
+							},
+							"myURL":{
+								url: "Nhập đúng đường dẫn",
+							},
+							"mySelect":{
+								required:"Chọn hãng xe",
+							},
+							"content":{
+								required: "Nhập thông tin",
+							},
+
+						},
+					});
+				});
+			</script>
+		</div>
+	</div>
+</body></html>
