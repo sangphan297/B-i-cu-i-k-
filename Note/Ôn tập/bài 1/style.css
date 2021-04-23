@@ -1,0 +1,41 @@
+.wraper{
+	width: 720px;
+	margin : 50px auto;
+}
+.wraper .left{
+	width: 300px;
+	float: left;
+} 
+.wraper .left ul li{} 
+.wraper .left ul li a{
+	float: left;
+	width: 150px;
+} 
+.wraper .left ul li a img{} 
+.wraper .left ul li h3{
+	float: right;
+	width: 150px;
+} 
+.wraper .left ul li h3 a{} 
+
+.wraper .right{
+	width: 410px;
+	float: right;
+} 
+.wraper .right a img{}
+.wraper .right h2{} 
+.wraper .right h2 a{} 
+.wraper .right p{}
+
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+
