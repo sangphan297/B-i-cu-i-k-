@@ -1,0 +1,23 @@
+table{
+	margin: 50px auto;
+	border: 0px solid;
+}
+.dong1{
+	position:relative;
+	background-color: #F5F5F5;
+}
+.dong2{
+	position:relative;
+	width:400px;
+	height:40px;
+	background-color: #F5F5F5;
+}
+table tr td strong{
+	position: absolute;
+	left:20px;
+}
+table tr td input{
+	position: absolute;
+	left:10px;
+	top:14px;
+}

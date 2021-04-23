@@ -1,0 +1,105 @@
+.wraper{
+	width: 710px;
+	margin: 50px auto;
+}
+
+.wraper .left{
+	width: 340px;
+	float: left;
+	border-right: 1px dashed grey;
+	padding-right: 12px;
+}
+
+.wraper .left h2{
+	font-size: 25px;
+	border-left: 2px solid #f56405;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border-right: 0px;
+	
+}
+.wraper .left  h2 a{
+	color: black;
+}
+.wraper .left  a{
+	margin-bottom: 10px;
+}
+.wraper .left a img{ 
+
+ }
+.wraper .left  h3{
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px dashed grey;
+	padding-bottom: 20px;
+}
+
+.wraper .left  h3 a{
+	color: black;
+}
+.wraper .left .content .left1{
+	width: 80px;
+	float: left;
+}
+.wraper .left  .content .left1 img{}
+.wraper .left .content .right1{
+	width: 220px;
+	float: left;
+	color: grey;
+
+
+}
+
+.wraper .right {
+	width: 340px;
+	float: right;
+	margin-left: 15px;
+}
+
+.wraper .right  h2{
+	font-size: 25px;
+	border-left: 2px solid #f56405;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.wraper .right h2 a{
+	color: black;
+
+}
+.wraper .right  a{
+	margin-bottom: 10px;
+}
+.wraper .right  a img{}
+.wraper .right  h3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed grey;
+	padding-bottom: 42px;
+
+}
+.wraper .right  h3 a{
+	color: black;
+
+}
+.wraper .right  .content .left1{
+	width: 80px;
+	float: left;
+}
+.wraper .right  .content .left1 img{}
+.wraper .right .content .right1{
+	
+	width: 220px;
+	float: left;
+	color: grey;
+
+
+}
+
+.clr{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}

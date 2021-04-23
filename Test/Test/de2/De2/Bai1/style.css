@@ -1,0 +1,88 @@
+ .wraper{
+ 	width: 710px;
+ 	margin: 50px auto;
+ }
+
+ .wraper .left{
+ 	width: 300px;
+ 	float: left;
+ }
+ .wraper .left a{
+ 	width: 140;
+ 	float: left;
+ 	margin-bottom: 10px;
+ 	margin-top: 10px;
+ }
+  .wraper .left a img{
+  	width: 140px;
+  }
+ .wraper  .left h3{
+ 	width: 150px;
+ 	float: right;
+ 	font-size: 15px;
+ 	line-height: 15px;
+ 	font-family: tahoma;
+ 	text-align: left;
+  
+
+ }
+ 
+  .wraper  .left h3 a{
+  	text-decoration: none;
+  	color: #494F45;
+  }
+ .wraper  .left div{
+ 	clear: both;
+ 	border-top: 1px solid #C6C6C6;
+
+ 	 
+
+ }
+ .wraper  .left #sang{
+ 	
+ 	border: 0px;
+
+ 	 
+
+ }
+
+.wraper  .right{
+	width: 390px;
+	float: right;
+}
+.wraper  .right a{
+	 
+}
+.wraper  .right a img{
+	 }
+.wraper  .right h1{
+	font-family: tahoma;
+	font-size: 23px;
+	line-height: 31px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: left;
+	 
+}
+ 
+.wraper  .right h1 a{
+	 text-decoration: none;
+	 color: blue;
+}
+ 
+.wraper  .right p{
+	 font-family: tahoma;
+	 font-size: 15px;
+ 	line-height: 15px;
+ 	text-align: left;
+}
+.wraper  .clr1{
+	clear: both;
+}
+
+
+
+
+
+
+  
